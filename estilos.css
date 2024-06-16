@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --color1:#733A19;
+    --color2:#D9BD9C;
+    --color3:#D9D9D9;
+    --color4:#262626;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5,7,12,0.4),rgba(5,7,12,0.4)),
+    url(https://images.inc.com/uploaded_files/image/1920x1080/coffee_30024.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+#contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navegador{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 20;
+    border: 1px solid white;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px;
+}
+.menu li{
+    padding: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    opacity: 0.5;
+}
+h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+h1 a{
+    color: var(--color4);
+    text-decoration: none;
+}
+h1 a:hover{
+    opacity: 50%;
+}
+
+
+
+
+#contenido{
+    padding: 20px;
+}
+#bebe img{
+    width: 100%;
+}
+
+span{
+    font-style: oblique;
+    opacity: 0.75;
+}
+#cafe{
+    width: 50%;
+    margin: auto;
+    height: 2500px;
+}
+#cafe nav ul a{
+    color: blue;
+}
+#caf{
+    border-bottom: 2px solid tomato;
+}
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+}
+figure{
+    float: right;
+}
+#foto{
+    width: 50px;
+    border-radius: 50%;
+}
+figure{
+    float: right;
+    text-align: center;
+    font-size: 0.8em;
+    color: #733A19;
+}
+#contenido p{
+    text-align: justify;
+    padding: 20px;
+    color: var(--color1);
+}
+#cafeina{
+    float: right;
+    margin: 10px;
+}
+#taza{
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+
+#galeria{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+.item img{
+    width: 100%;
+    box-shadow: 5px 5px 5px var(--color4);
+}
+.item a{
+    opacity: 0.7;
+}
+.item a:hover{
+    opacity: 1;
+}
+#contenido .item p{
+    text-align: center;
+    color: var(--color1);
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+.video{
+    border: 4px double var(--color4);
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px var(--color4);
+    z-index: 10;
+}
+.video iframe{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px;
+}
+.redes li a{
+    padding: 10px;
+}
+.redes li a:hover{
+    opacity: 0.5;
+}
+
+  
+
+#contenido3 h2{
+    border: 1px solid black;
+}
+.imagen-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+#cafes{
+    width: 50%;
+    margin: auto;
+    height: 1462px;
+}
+#medida{
+    background-color: gainsboro;
+}
+h5{
+    font-size: 17px;
+    color: red;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#contenido2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#enviar{
+    width: 167px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#enviar:hover{
+    opacity: 0.5;
+}
+#form{
+    margin-left: -175px;
+}
+.div-imganen img{
+    padding: 10px;
+    border: 2px dotted red;
+}
+.div-imagen{
+    margin-left: 35px;
+    padding-top: 15px;
+}
+.mapa{
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+
+h6{
+    color: red;
+    margin-left:  150px;
+    font-size: 17px;
+}
+
+
+
+#parrafos{
+    width: 400px ;
+}
+h3{
+    text-align: center;
+    margin-left: 200px;
+    border: 1px solid black;
+    width: 635px;
+    margin-left: 2px;
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.445);
+    color: bisque;
+}
+aside img{
+    margin-left: 440px;
+    margin-top: -760px;
+    height: 660px;
+}
+hr{
+    border: 1px dotted red;
+}
+article img{
+    margin-left: 5px;
+    margin-top: 90px;
+}
+#cafes nav ul a{
+    color: blue;
+}
